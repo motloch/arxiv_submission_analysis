@@ -255,8 +255,8 @@ axs[0].bar(range(6), counts[:6],        color = 'goldenrod')
 axs[1].bar(range(6), avg_cit_count[:6], color = 'goldenrod')
 axs[1].axhline(0, color = 'black', lw = 0.6)
 
-axs[0].set_title('Number of submissions', fontfamily = 'Arial Black', pad = 20)
-axs[1].set_title('Excess citations',      fontfamily = 'Arial Black', pad = 20)
+axs[0].set_title('Number of submissions (first minute only)', fontfamily = 'Arial Black', pad = 20)
+axs[1].set_title('Excess citations (first minute only)',      fontfamily = 'Arial Black', pad = 20)
 axs[0].set_xlabel('Position in the arXiv listing')
 axs[1].set_xlabel('Position in the arXiv listing')
 
